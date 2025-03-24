@@ -7,7 +7,7 @@
 # @Email  : sepinetam@gmail.com
 # @File   : EPS.py
 
-# 如果数据来源于国家统计局，可以把数据放在"data/source.gb2312/"下，后运行EPS_merge函数即可整理
+# 如果数据来源于EPS，可以把数据放在"data/source.gb2312/"下，后运行EPS_merge函数即可整理
 
 from utils.merge import merge
 from utils.convert import convert_encoding
