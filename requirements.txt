@@ -5,3 +5,7 @@ scikit-learn
 opencv-python
 pygis
 jupyter
+openpyxl
+jieba
+seaborn
+matplotlib
