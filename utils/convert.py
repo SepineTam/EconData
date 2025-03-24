@@ -35,6 +35,9 @@ def convert_encoding(input_dir, output_dir, input_encoding="gb2312", output_enco
         os.makedirs(current_output_dir, exist_ok=True)
 
         for filename in files:
+            # 防止macOS导出拉屎💩`.DS_Store`
+            if filename == ".DS_Store":
+                continue
             input_file = os.path.join(root, filename)
             output_file = os.path.join(current_output_dir, filename)
 
